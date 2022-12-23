@@ -1,0 +1,98 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.modal {
+    /* Border */
+    border: 1px #d1d5db;
+    border-radius: 0.25rem;
+
+}
+
+.modal-content {
+    /* body */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+
+    /* Border */
+    border-bottom: 1px solid #d1d5db;
+}
+
+.modal__footer {
+    display: flex;
+    /* Push the buttons to the right */
+    justify-content: center;
+
+    /* Border */
+    border-top: 1px solid #d1d5db;
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn28 {
+    background-image: linear-gradient(to right,
+            #eb3941,
+            #f15e64,
+            #e14e53,
+            #e2373f);
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}

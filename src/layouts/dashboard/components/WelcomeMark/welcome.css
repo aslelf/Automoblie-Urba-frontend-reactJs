@@ -1,0 +1,28 @@
+.flexing{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* width: 2000px; */
+    margin-left: 40px;
+    margin-top:13px;
+}
+.first{
+    /* flex: O.5 ;  */
+    display: flex;
+    align-items: center;
+}
+.last{
+    display: flex;
+    align-items: left;
+}
+.extra{
+    display: flex;
+    align-items: space-between;
+    flex: 1;
+}
+.margClass{
+    margin-left:30px;
+}
+.addTop{
+    margin-top:-50px;
+}
